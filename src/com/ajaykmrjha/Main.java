@@ -10,5 +10,10 @@ public class Main {
         System.out.println(message.length());
         System.out.println(message.indexOf("!!")); // returns the index of char and word in the given string or return -1 in case not found
         System.out.println(message.indexOf("lo W"));  // searches for word in the given string
+        System.out.println(message.replace("!", "*")); // replace strings and returns new string
+        System.out.println(message.toLowerCase()); // make string to all lowercase and returns new string
+        System.out.println(message.toUpperCase()); // make string to all uppercase and returns new string
+        System.out.println(message.trim()); // remove white space from beginning and end  and returns new strings
+        System.out.println(message);
     }
 }
