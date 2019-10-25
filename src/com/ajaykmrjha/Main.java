@@ -7,8 +7,10 @@ public class Main {
     public static void main(String[] args) {
 //        Arithmetic Expression
 //        We 5 arithmetic expression in java e.g ( "+", "-", "*", "/", "%")
-        int result = 10 / 3;
-        System.out.println(result); // output will be 3, As in java division of two whole number will be whole number
+        double result = (double) 10 /  (double) 3;
+//        here "(double) 10 /  (double) 3" is expression
+//        here 10 and 3 is operand and "/" is operator
+        System.out.println(result);
 
     }
 }
