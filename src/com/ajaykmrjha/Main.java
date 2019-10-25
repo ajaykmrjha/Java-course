@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 //        Array example
-        int[] numbers = new int[5];
-//        First ways to initialize array
-        numbers[0] = 1;
-        numbers[1] = 2;
-
 //        Tip: In Java Array is of fix size
+        int[] numbers = { 1, 4,2,6,7};
+//        methods in array class
+        Arrays.sort(numbers);
+
+        System.out.println(numbers.length);
         System.out.println(Arrays.toString(numbers));
     }
 }
