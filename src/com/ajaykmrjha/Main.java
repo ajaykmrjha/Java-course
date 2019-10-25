@@ -5,10 +5,9 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-//    Multi-dimensional Array
-        int[][] numbers = { { 1, 3, 2}, {4, 3, 2} };
-//        Tip: To print multi-dimensional use deepToString
-//        deepToString is another method in Array class
-        System.out.println(Arrays.deepToString(numbers));
+
+//        To declare a constant variable use final in java
+//        declare constant in upper case 
+        final  float PI = 3.14F;
     }
 }
