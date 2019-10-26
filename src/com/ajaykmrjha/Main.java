@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
 //        Scanner class use to get input from user
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Age: ");
-        byte age = scanner.nextByte();
-        System.out.println("You are ");
+        System.out.print("Name: ");
+        String name = scanner.next();
+        System.out.println("You are " + name);
     }
 }
