@@ -9,7 +9,7 @@ public class Main {
 //        Scanner class use to get input from user
         Scanner scanner = new Scanner(System.in);
         System.out.print("Name: ");
-        String name = scanner.next();
+        String name = scanner.nextLine();
         System.out.println("You are " + name);
     }
 }
