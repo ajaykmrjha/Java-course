@@ -5,9 +5,9 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-//        Explicit casting 
-        double x = 1.1;
-        int y = (int) x + 2;
+//        Implicit casting
+        String x = "1";
+        int y = Integer.parseInt(x) + 2;  // parseInt is wrapper class for primitive type int
         System.out.println(y);
 
 
