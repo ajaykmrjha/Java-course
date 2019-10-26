@@ -6,8 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 //        NumberFormat for percent
-        NumberFormat percent = NumberFormat.getPercentInstance();
-        String result = percent.format(0.1);
+
+        String result = NumberFormat.getPercentInstance().format(0.1); // Method chaining
         System.out.println(result);
     }
 }
