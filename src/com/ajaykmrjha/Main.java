@@ -1,11 +1,12 @@
 package com.ajaykmrjha;
 
+import java.text.NumberFormat;
+
 public class Main {
 
     public static void main(String[] args) {
-//        Math random method
-        int result = (int) Math.round(Math.random() * 100);
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        String result = currency.format(1234567.891);
         System.out.println(result);
-
     }
 }
